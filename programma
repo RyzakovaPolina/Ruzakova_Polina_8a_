@@ -1,0 +1,13 @@
+program 1
+ var a,b,s,p : real;
+begin
+ writeln('Вычисление площади и периметра фигуры.');
+ write('Сторона а см =');
+ readln(a);
+ write('сторона b см =');
+ readln(b); 
+ s:= a*b
+ p:= 2*(a+b);
+ writeln('s=' p:3:1);
+ writeln('p=' s:3:1);
+end.
